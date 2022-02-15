@@ -106,3 +106,6 @@ SimpleBlogCard.propTypes = {
 };
 
 export default SimpleBlogCard;
+
+
+//DONE ON CARDS IN INDEX
