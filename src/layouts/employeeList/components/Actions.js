@@ -10,7 +10,7 @@ function Actions() {
       <Grid >
         <Grid xs={12}>
           <MaterialTable
-            title="Employee List"
+            title="Employee Master"
             columns={[
               { title: 'OB ID', field: 'obid',width:"7%"},
               { title: 'Emp ID', field: 'empid'},
@@ -77,17 +77,18 @@ function Actions() {
                         fontSize: 14,
                         textAlign: 'center',
                         mr:"30rem",
-                        color: 'white',
-                        backgroundColor: '#FFAA33',
+                        color: 'black',
+                        backgroundColor: '#ffffff',
                       }}
-                    >
+                    ><Grid container>
                       <Grid item xs={12}>Full Name : {rowData.name}</Grid>
-                      Emp ID : {rowData.empid}<br/>
+                      <Grid item xs={12}>Emp ID : {rowData.empid}<br/></Grid>
                       OB ID : {rowData.obid}<br/>
                       Email : {rowData.email}<br/>
                       Phone No. : {rowData.phone}<br/>
                       Joining Date : {rowData.jdate}<br/>
                       Reporting Manager : {rowData.rm}<br/>
+                      </Grid>
                     </MDBox>
                   )
                 },

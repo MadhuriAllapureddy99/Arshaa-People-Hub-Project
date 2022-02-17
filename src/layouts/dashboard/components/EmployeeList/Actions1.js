@@ -10,7 +10,7 @@ function Actions1() {
       <Grid >
         <Grid xs={12}>
           <MaterialTable
-            title="Employee List"
+            title="Employee Master"
             columns={[
               { title: 'OB ID', field: 'obid',width:"7%"},
               { title: 'Emp ID', field: 'empid'},
@@ -22,15 +22,15 @@ function Actions1() {
 
             ]}
             data={[
-              {obid: '101', empid: 'ATPL001', name: 'Sumalatha Chinthala', email: 'sumalatha.chinthala@gmail.com', phone: '9234567890', jdate:'12-04-2022', rm:'Revanth Kumar' },
-              {obid: '102', empid: 'ATPL002', name: 'Kumara Swamy Kummara', email: 'kumar.kummara@gmail.com', phone: '9898767890', jdate:'13-04-2022',rm:'Revanth Kumar' },
-              {obid: '103', empid: 'ATPL003', name: 'Mallesh Piduguralla', email: 'mallesh.piduguralla@gmail.com', phone: '7654567890', jdate:'12-04-2022',rm:'Revanth Kumar' },
-              {obid: '104', empid: 'ATPL004', name: 'Supraja Aavula', email: 'supraja.aavula@gmail.com', phone: '7864567890', jdate:'12-04-2022',rm:'Revanth Kumar' },
-              {obid: '105', empid: 'ATPL005', name: 'Ram Bindhu', email: 'ram.bindhu@gmail.com', phone: '6234567890', jdate:'12-04-2022',rm:'Revanth Kumar' },
-              {obid: '106', empid: 'ATPL006', name: 'Somnath Chakravarthi', email: 'somnath.chakravarthi@gmail.com', phone: '9234567890', jdate:'12-04-2022',rm:'Revanth Kumar' },
-              {obid: '107', empid: 'ATPL007', name: 'Sumalatha Chinthala', email: 'sumalatha.chinthala@gmail.com', phone: '9234567890', jdate:'12-04-2022',rm:'Revanth Kumar' },
-              {obid: '108', empid: 'ATPL008', name: 'Kumara Swamy Kummara', email: 'kumar.kummara@gmail.com', phone: '9898767890', jdate:'13-04-2022',rm:'Revanth Kumar' },
-              {obid: '109', empid: 'ATPL009', name: 'Mallesh Piduguralla', email: 'mallesh.piduguralla@gmail.com', phone: '7654567890', jdate:'12-04-2022',rm:'Revanth Kumar' },
+              {obid: 'OB101', empid: 'ATPL001', name: 'Sumalatha Chinthala', email: 'sumalatha.chinthala@gmail.com', phone: '9234567890', jdate:'12-04-2022', rm:'Revanth Kumar' },
+              {obid: 'OB102', empid: 'ATPL002', name: 'Kumara Swamy Kummara', email: 'kumar.kummara@gmail.com', phone: '9898767890', jdate:'13-04-2022',rm:'Revanth Kumar' },
+              {obid: 'OB103', empid: 'ATPL003', name: 'Mallesh Piduguralla', email: 'mallesh.piduguralla@gmail.com', phone: '7654567890', jdate:'12-04-2022',rm:'Revanth Kumar' },
+              {obid: 'OB104', empid: 'ATPL004', name: 'Supraja Aavula', email: 'supraja.aavula@gmail.com', phone: '7864567890', jdate:'12-04-2022',rm:'Revanth Kumar' },
+              {obid: 'OB105', empid: 'ATPL005', name: 'Ram Bindhu', email: 'ram.bindhu@gmail.com', phone: '6234567890', jdate:'12-04-2022',rm:'Revanth Kumar' },
+              {obid: 'OB106', empid: 'ATPL006', name: 'Somnath Chakravarthi', email: 'somnath.chakravarthi@gmail.com', phone: '9234567890', jdate:'12-04-2022',rm:'Revanth Kumar' },
+              {obid: 'OB107', empid: 'ATPL007', name: 'Sumalatha Chinthala', email: 'sumalatha.chinthala@gmail.com', phone: '9234567890', jdate:'12-04-2022',rm:'Revanth Kumar' },
+              {obid: 'OB108', empid: 'ATPL008', name: 'Kumara Swamy Kummara', email: 'kumar.kummara@gmail.com', phone: '9898767890', jdate:'13-04-2022',rm:'Revanth Kumar' },
+              {obid: 'OB109', empid: 'ATPL009', name: 'Mallesh Piduguralla', email: 'mallesh.piduguralla@gmail.com', phone: '7654567890', jdate:'12-04-2022',rm:'Revanth Kumar' },
             ]}
             
             components={{

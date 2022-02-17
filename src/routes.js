@@ -54,10 +54,10 @@ const routes = [
 	},
 	{
 		type: 'collapse',
-		name: 'Employee List',
-		key: 'employee_List',
+		name: 'Employee Master',
+		key: 'employee_Master',
 		icon: <Icon fontSize="small">assignment</Icon>,
-		route: '/employee_List',
+		route: '/employee_Master',
 		component: <EmployeeList />
 	},
 
