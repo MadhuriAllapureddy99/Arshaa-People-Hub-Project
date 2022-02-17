@@ -1,10 +1,11 @@
 // Material Dashboard 2 React layouts
 import Dashboard from 'layouts/dashboard';
-import documentApproval from 'layouts/documentApproval';
+import OnBoardApproval from 'layouts/onBoardApproval';
 import Profile from 'layouts/profile';
 import SignIn from 'layouts/authentication/sign-in';
 import Branch from 'layouts/branch/index';
-import employeeList from 'layouts/employeeList'
+import EmployeeList from 'layouts/employeeList';
+import AllocateAssets from 'layouts/allocateAssets';
 
 // @mui icons
 import Icon from '@mui/material/Icon';
@@ -21,43 +22,43 @@ const routes = [
 	},
 	{
 		type: 'collapse',
-		name: 'Onboarding Form',
-		key: 'onboardingForm',
+		name: 'On-Boarding Form',
+		key: 'onboarding_Form',
 		icon: <Icon fontSize="small">receipt_long</Icon>,
-		route: '/onboardingForm',
+		route: '/onboarding_Form',
 		component: <Profile />
 	},
 	{
 		type: 'collapse',
-		name: 'Confirm Onboarding',
-		key: 'branch',
+		name: 'Document Validation',
+		key: 'Document_Validation',
 		icon: <Icon fontSize="small">assignment</Icon>,
-		route: '/branch',
+		route: '/Document_Validation',
 		component: <Branch />
 	},
 	{
 		type: 'collapse',
-		name: 'Document Approvals',
-		key: 'documentApproval',
+		name: 'On-Boarding Approval',
+		key: 'onboarding_Approval',
 		icon: <Icon fontSize="small">receipt_long</Icon>,
-		route: '/document_Approval',
-		component: <documentApproval />
+		route: '/onboarding_Approval',
+		component: <OnBoardApproval />
 	},
 	{
 		type: 'collapse',
 		name: 'Allocate Assets',
-		key: 'allocateAssets',
+		key: 'allocate_Assets',
 		icon: <Icon fontSize="small">store</Icon>,
-		route: '/Allocate_Assets',
-		component: <inventory />
+		route: '/allocate_Assets',
+		component: <AllocateAssets />
 	},
 	{
 		type: 'collapse',
 		name: 'Employee List',
-		key: 'employeeList',
+		key: 'employee_List',
 		icon: <Icon fontSize="small">assignment</Icon>,
-		route: '/employeeList',
-		component: <employeeList />
+		route: '/employee_List',
+		component: <EmployeeList />
 	},
 
 	{

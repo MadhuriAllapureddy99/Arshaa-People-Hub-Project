@@ -10,7 +10,7 @@ function Actions() {
       <Grid >
         <Grid xs={12}>
           <MaterialTable
-            title="Waiting for Approvals"
+            title="Waiting for Asset Approval"
             columns={[
               { title: 'OB ID', field: 'obid',width:"7%"},
               { title: 'Full Name', field: 'name'},

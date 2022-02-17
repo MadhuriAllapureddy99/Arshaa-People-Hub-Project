@@ -9,7 +9,7 @@ import DashboardNavbar from 'examples/Navbars/DashboardNavbar';
 import Footer from 'examples/Footer';
 import Actions from './components/Actions';
 
-function Dashboard() {
+function AllocateAssets() {
 
 	return (
 		<DashboardLayout>
@@ -30,4 +30,4 @@ function Dashboard() {
 	);
 }
 
-export default Dashboard;
+export default AllocateAssets;

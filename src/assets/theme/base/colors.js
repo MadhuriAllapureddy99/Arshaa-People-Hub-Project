@@ -1,6 +1,7 @@
+// FFFEE0
 export default {
   background: {
-    default: "#ffffc4",
+    default: "#FFFEE9", 
   },
 
   text: {
