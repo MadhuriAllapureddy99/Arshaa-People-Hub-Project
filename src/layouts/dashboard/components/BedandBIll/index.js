@@ -9,8 +9,11 @@ import { CardContent, Divider } from '@mui/material';
 // Material Dashboard 2 React components
 import MDBox from 'components/MDBox';
 import MDTypography from 'components/MDTypography';
+import cardData from './data/cardData.json';
+
 
 function BedandBill(props) {
+  const [ data, setData ] = useState('');
 	return (
     <Box>
       <Grid item xs={12} md={6} lg={3}>

@@ -38,10 +38,10 @@ const routes = [
 	},
 	{
 		type: 'collapse',
-		name: 'On-Boarding Approval',
-		key: 'onboarding_Approval',
+		name: 'On-Boarding Final Approval',
+		key: 'onboarding_Final_Approval',
 		icon: <Icon fontSize="small">receipt_long</Icon>,
-		route: '/onboarding_Approval',
+		route: '/onboarding_Final_Approval',
 		component: <OnBoardApproval />
 	},
 	{

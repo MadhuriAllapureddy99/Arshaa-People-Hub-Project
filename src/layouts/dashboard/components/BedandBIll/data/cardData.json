@@ -1,0 +1,23 @@
+[
+    {
+        "id" : 1,
+        "info" : "Total Employees",
+        "number" : 140
+    },
+    {
+        "id" : 2,
+        "info" : "Approved Onboards",
+        "number" : 100
+    },
+    {
+        "id" : 3,
+        "info" : "Discarded Onboards",
+        "number" : 40
+    },
+    {
+        "id" : 4,
+        "info" : "Pending Onboards",
+        "number" : 6
+    }
+
+]

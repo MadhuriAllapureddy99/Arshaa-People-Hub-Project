@@ -8,25 +8,24 @@ import MDBox from 'components/MDBox';
 import DashboardLayout from 'examples/LayoutContainers/DashboardLayout';
 import DashboardNavbar from 'examples/Navbars/DashboardNavbar';
 import Footer from 'examples/Footer';
-import Actions1 from './components/EmployeeList/Actions1';
-import BedandBill from 'layouts/dashboard/components/BedandBIll';
+import Actions from '../employeeList/components/Actions';
+import CardGroup from './components/cardss/CardGroup';
+import ChartOne from './components/charts/ChartOne';
+
+
 
 function Dashboard() {
 
 	return (
 		<DashboardLayout>
-
 			<DashboardNavbar />
-			<MDBox py={3}>
-				<Grid container >
-					<Grid item xs={12}>
-					<Actions1 />
-					</Grid>
-				</Grid>
+			<br />
+			<CardGroup />
+			<MDBox sx={{background:'white', borderRadius:'3%'}} py={2}>
+			<ChartOne/>
 			</MDBox>
-
-			
-
+			<br/>
+			<Actions />
 			<Footer />
 		</DashboardLayout>
 	);

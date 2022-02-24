@@ -9,7 +9,7 @@ function Actions1() {
     <Box>
       <Grid >
         <Grid xs={12}>
-          <MaterialTable
+          <MaterialTable 
             title="Employee Master"
             columns={[
               { title: 'OB ID', field: 'obid',width:"7%"},
